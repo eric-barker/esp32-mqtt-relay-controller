@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/CMakeFiles/bootloader
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/CMakeFiles/bootloader.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/CMakeFiles/bootloader-complete.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/esp-32-relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

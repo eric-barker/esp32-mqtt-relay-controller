@@ -1,0 +1,24 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/build/bootloader/esp-idf/esptool_py && /home/jackson/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/jackson/esp/v5.4/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/build/bootloader/bootloader.bin
+Bootloader binary size 0x6560 bytes. 0xaa0 bytes (9%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/main/main.c:8:
+/home/jackson/esp/v5.4/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+/home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/main/main.c:16:16: warning: 's_led_state' defined but not used [-Wunused-variable]
+   16 | static uint8_t s_led_state = 0;
+      |                ^~~~~~~~~~~
+[4/9] Linking C static library esp-idf/main/libmain.a
+[5/9] Completed 'bootloader'
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable temperature-sensor.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/build/temperature-sensor.bin
+[9/9] cd /home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/build/esp-idf/esptool_py && /home/jackson/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/jackson/esp/v5.4/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/build/partition_table/partition-table.bin /home/jackson/Documents/Repositories/esp32-mqtt-relay-controller/esp-idf-projects/temperature-sensor/build/temperature-sensor.bin
+temperature-sensor.bin binary size 0x2dc50 bytes. Smallest app partition is 0x100000 bytes. 0xd23b0 bytes (82%) free.
